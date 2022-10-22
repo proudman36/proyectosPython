@@ -1,10 +1,10 @@
 cont0=0
 cont1=1
 cont2=1
-num = int(input("Ingrese un número entero por favor. "))
+num = int(input("Ingrese un número entero positivo por favor. "))
 while num<0:
     print("Ingrese un número del 0 en adelante")
-    num = print("Ingrese un número entero por favor. ")
+    num = print("Ingrese un número entero positivo por favor. ")
 if num==0:
     print(num)
 elif num == 1:
